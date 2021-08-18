@@ -18,7 +18,7 @@ void loop()
   
   
   if (v < 300) {		// the actual threshold (300) doesn't 
-    servo3.write(0);	// matteras long as the servo turns
+    servo3.write(0);	// matter as long as the servo turns
   }						// at some point via LDR control
   else {
     servo3.write(180);
